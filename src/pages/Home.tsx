@@ -29,14 +29,9 @@ const iconIphone = "/attached_assets/generated_images/iphone_repair_icon_style_i
 const iconMacbook = "/attached_assets/generated_images/macbook_repair_icon_style_illustration.png";
 const iconWatch = "/attached_assets/generated_images/apple_watch_repair_icon_style_illustration.png";
 const iconIpad = "/attached_assets/generated_images/ipad_repair_icon_style_illustration.png";
-const logoImg =  "/attached_assets/photo_2025-12-13_12-20-32_1765608981907.jpg";
-// import heroBg from "@assets/generated_images/modern_high-tech_electronics_repair_workbench_background.png";
-// import heroBg1 from "@assets/generated_images/professional_iphone_repair_workspace_close_up_black_and_white.png";
-// import iconIphone from "@assets/generated_images/iphone_repair_icon_style_illustration.png";
-// import iconMacbook from "@assets/generated_images/macbook_repair_icon_style_illustration.png";
-// import iconWatch from "@assets/generated_images/apple_watch_repair_icon_style_illustration.png";
-// import iconIpad from "@assets/generated_images/ipad_repair_icon_style_illustration.png";
-// import logoImg from "@assets/photo_2025-12-13_12-20-32_1765608981907.jpg";
+// const logoImg =  "/attached_assets/photo_2025-12-13_12-20-32_1765608981907.jpg";
+const logoImg =  "/attached_assets/ashuraSaif.jpg";
+
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -63,7 +58,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img src={logoImg} alt="Saif Phone Logo" className="h-10 w-10 rounded-full object-cover border border-primary/20" />
-          <span className="font-display font-bold text-xl tracking-tight text-white">SAIF MOBILE PHONE <span className="text-primary">REPAIR CO.</span></span>
+          <span className="font-display font-bold text-xl tracking-tight text-primary">ASHURA SAIF <span className="text-white">MOBILE PHONE REPAIR LLC.S.O.C</span></span>
         </div>
         
         <div className="hidden md:flex items-center gap-8">
@@ -470,7 +465,7 @@ const Mockup = () => {
               </span>
             </h1>
             <p className="text-gray-400 text-lg lg:text-xl max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              At <strong className="text-white">SAIF MOBILE PHONE REPAIR CO.</strong>, we don't just fix devices; we restore your connection to the world. From cracked screens to complex chip repairs, we deliver speed, precision, and privacy.
+              At <strong className="text-white">ASHURA SAIF MOBILE PHONE REPAIR LLC.S.O.C</strong>, we don't just fix devices; we restore your connection to the world. From cracked screens to complex chip repairs, we deliver speed, precision, and privacy.
             </p>
           </div>
 
@@ -548,7 +543,7 @@ const Mockup = () => {
                 {/* MOCKUP CONTENT */}
                 <main className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 pt-20">
                   <h1 className="text-3xl font-black text-white tracking-widest uppercase mb-2 drop-shadow-lg">
-                    SAIF MOBILE PHONE REPAIR CO.
+                    ASHURA SAIF MOBILE PHONE REPAIR LLC.S.O.C
                   </h1>
                   <p className="text-white/80 text-sm mb-8 leading-relaxed max-w-[80%]">
                     Premium Smartphones & <br/>Repair Services.<br/>
@@ -661,7 +656,7 @@ const PrivacyPolicy = () => {
                     <div className="absolute bottom-6 left-6 right-6 bg-black/80 backdrop-blur-md border border-white/10 text-white p-4 rounded-xl shadow-2xl">
                       <div className="flex justify-between items-center">
                         <div>
-                            <p className="font-bold text-sm">SAIF PHONE</p>
+                            <p className="font-bold text-sm">ASHURA SAIF MOBILE PHONE REPAIR LLC.S.O.C</p>
                             <p className="text-xs text-gray-400">17 18 St Al Murar, Dubai</p>
                         </div>
                         <a 
@@ -697,7 +692,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
                <img src={logoImg} alt="Saif Phone Logo" className="h-8 w-8 rounded-full border border-primary/20" />
-               <span className="font-display font-bold text-lg text-white">SAIF MOBILE PHONE  <span className="text-primary">REPAIR CO.</span></span>
+               <span className="font-display font-bold text-lg text-white">ASHURA SAIF MOBILE PHONE <span className="text-primary">REPAIR LLC.S.O.C</span></span>
             </div>
             <p className="text-muted-foreground mb-6">
               Professional Apple device repair center in UAE. Fast, reliable, and secure repairs for all your Apple products.
@@ -734,7 +729,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/10 pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} SAIF PHONE. All rights reserved.
+          © {new Date().getFullYear()} ASHURA SAIF MOBILE PHONE REPAIR LLC.S.O.C All rights reserved.
         </div>
       </div>
     </footer>
